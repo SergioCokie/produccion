@@ -1,0 +1,71 @@
+.contenedor_loader {
+
+	transition: all 1s;
+	
+}
+
+#resumen {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+#resumen.table td,
+#resumen.table th {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#resumen td {
+    /* Agregando tamaño a letra a tabla resumen */
+    font-size: 10px;
+    font-weight: 900;
+}
+
+#tabla_ficha_tecnica {
+    white-space: pre-wrap;
+
+}
+
+#resumen.table th {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.wrap,
+.wrap2 {
+    width: 100px;
+    white-space: pre-wrap;
+    /* CSS3 */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* IE */
+}
+
+.wrap {
+    height: auto;
+}
+
+.wrap2 {
+    border: 1px solid blue;
+    height: 100px;
+    overflow: auto;
+    width: 100px;
+}
+
+#tabla_ficha_tecnica thead tr th {
+    padding-left: 0;
+    padding-right: 0;
+}
+a.ver_ficha {
+	background-color: #1f3558;
+	color: white;
+}
+
+
+

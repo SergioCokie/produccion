@@ -1,0 +1,215 @@
+    /*EFECTOS JQUERY*/
+    .contenedor_loader {
+        transition: all 1s;
+    }
+    #tabla_imprentas td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #tabla_imprentas tbody tr:hover {
+        background-color: rgba(31, 53, 88, 0.1);
+    }
+    
+
+    #tabla_troqueladora td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #tabla_troqueladora td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    #tabla_flexografia td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #tabla_pegadora td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    textarea {
+        height: 150px;
+        width: 135px;
+    }
+
+    .input-tabla-reporte {
+        background-color: rgba(31, 53, 88, 0.2);
+        border-color: transparent;
+        font-size: 10px;
+        font-weight: bold;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    textarea {
+        height: 150px;
+        width: 135px;
+    }
+
+    div.reportes-impresoras table tbody tr:hover {
+        background-color: rgba(31, 53, 88, 0.1);
+    }
+
+    div.reportes-impresoras table tbody td :disabled {
+        background-color: rgba(31, 53, 88, 0.2);
+    }
+
+
+    /*VIEW REPORTES*/
+
+    div.reportes-impresoras {
+        margin-top: -25px;
+    }
+
+    div.reportes-impresoras table thead th:first-child {
+        border-top-left-radius: 10px;
+    }
+
+    div.reportes-impresoras table thead th:last-child {
+        border-top-right-radius: 10px;
+    }
+
+    div.reportes-impresoras table {
+        margin-top: 30px;
+
+    }
+
+    div.reportes-impresoras table div#tabla-validacion-buton button {
+        display: none;
+
+    }
+
+
+    div.reportes-impresoras table thead {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #1F3558;
+        color: white;
+        font-size: 9px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+   
+
+    div.reportes-impresoras table tbody td input,
+    div.reportes-impresoras table tbody td textarea,
+    div.reportes-impresoras table tbody td select {
+        background-color: rgba(31, 53, 88, 0.2);
+        border-color: transparent;
+        font-size: 10px;
+        font-weight: bold;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    div.reportes-impresoras table tbody td {
+        padding: 10px 5px 10px 5px;
+    }
+
+    div.reportes-impresoras table tbody td input[type="date"]::-webkit-calendar-picker-indicator {
+        padding: 0;
+        margin-left: 0px;
+    }
+
+    div.reportes-impresoras input#tiempo-reporte {
+        color: black;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    div.reportes-impresoras div.msg-tiempo {
+        font-size: 11.5px;
+        text-align: center;
+        color: red;
+        background-color: yellow;
+        display: none;
+        padding: 0;
+    }
+
+
+    /*ESTILO DE TABLA*/
+
+
+
+    div.reportes-impresoras table tbody td input {
+        margin: 0 auto;
+    }
+
+    div.reportes-impresoras td {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    div.reportes-impresoras table tbody td[name="id_MO"],
+    div.reportes-impresoras table tbody td[name="id_padre"] {
+        display: none;
+    }
+
+    div.reportes-impresoras textarea {
+        height: 150px;
+        width: 135px
+    }
+
+    div.reportes-impresoras table tbody input[type=number]::-webkit-inner-spin-button,
+    div.reportes-impresoras table tbody input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[name=cliente] {
+        width: 130px;
+    }
+
+    input[name=ot_trello] {
+        width: 80px;
+    }
+
+
+    /*INPUT FECHA*/
+
+    input.fecha-reporte::-webkit-calendar-picker-indicator {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: transparent;
+        background: 0 0;
+        margin: 0;
+        opacity: 0;
+        pointer-events: auto;
+    }
+    
+#tabla_modal_validacion_arranque table input[type="text"]{
+    background-color: transparent;
+}
+
+.modal-dialog .modal-content {
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0rgba(0,0,0,.18),0 4px 15px 0rgba(0,0,0,.15);
+    border: 0;
+    -webkit-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+    border-radius: 10px;
+}
+.modal-dialog.modal-notify.modal-info .badge, .modal-dialog.modal-notify.modal-info .modal-header {
+    background-color: #1f3558;
+    border-radius: 10px 10px 0 0;
+}
+/* thead tr th { 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.table-responsive { 
+    height: 550px;
+    overflow:scroll;
+} */
+

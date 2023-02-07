@@ -1,0 +1,64 @@
+.termometro-im{
+    text-align: center;
+    font-size: 19px;
+  }
+  
+  .nota-tabla-im{
+    font-size: 11px;
+    font-style: italic;
+  }
+  
+ .swatch-cyan {
+     color: #fff;
+     background-color: #17a2b8;
+  }
+  
+  .swatch-magenta {
+     color: #fff;
+     background-color: #cf3476;
+   }
+   
+   .swatch-yellow {
+     color: #fff;
+     background-color: #ffff00;
+   }
+   
+   .swatch-p1{
+         color: #fff;
+         background-color: midnightblue;
+   }
+   
+   .text-border-black{
+      -webkit-text-stroke: 0.6px black;
+   }
+   
+   .cell-table{
+     width: 100%;
+   }
+   
+   .cell-table-noneB{
+     border: none;
+     background: white;
+     color: black;
+   }
+   
+   .tabla-cell-center td{
+     text-align: center;
+   }
+   
+   .alto{
+     background-color: #EC9FBC;
+   }
+   
+   .bajo{
+     background-color: #9FAAEC;
+   }
+   
+   .normal{
+     background-color: #FFFFFF;
+   }
+   
+   .ocultandoBoton{
+       border: none;
+       background: white;
+   }

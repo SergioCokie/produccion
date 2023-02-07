@@ -1,0 +1,5 @@
+Fuente: 
+
+http://es.gitready.com/intermediate/2009/02/13/list-remote-branches.html
+https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Ramas-Remotas
+https://www.atlassian.com/es/git/tutorials/using-branches/git-merge#:~:text=El%20comando%20git%20merge%20permite,fusionan%20en%20la%20rama%20actual.

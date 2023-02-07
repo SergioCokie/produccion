@@ -1,0 +1,94 @@
+.div-select-personalizado .select2-container--bootstrap4 .select2-selection--single {
+    height: calc(0.1em + 3.75rem + -26px) !important;
+    background-color: rgba(31, 53, 88, 0.2);
+    border-radius: 10px;
+}
+
+.div-select-personalizado .select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered {
+    padding-left: 0.75rem;
+    line-height: calc(1.5em + .75rem);
+    color: #495057;
+    font-size: 13pt;
+}
+
+.picker__box .picker__header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+.cabecera label {
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+}
+
+.picker__box .picker__table .picker--focused,
+.picker__box .picker__table .picker__day--selected,
+.picker__box .picker__table .picker__day--selected:hover {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
+    background-color: #1f3558;
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+table thead:nth-child(2) th {
+    padding: 4px;
+}
+
+table thead:nth-child(2) th .select2-container--bootstrap4 .select2-selection--single {
+    height: calc(0.9em + 0.75rem + 2px) !important;
+    background-color: #1f355833;
+}
+
+table thead:nth-child(2) th .select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered {
+    padding-left: 0.75rem;
+    line-height: calc(1.0em + .75rem);
+    color: #495057;
+}
+
+.wrap,
+.wrap2 {
+    width: 70px;
+    white-space: pre-line;
+    /* CSS3 */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* IE */
+    font-size: 8pt;
+}
+
+.wrap {
+    height: auto;
+    width: auto;
+}
+
+.wrap2 {
+    border: 1px solid blue;
+    height: 100px;
+    overflow: auto;
+    width: 20px;
+}
+
+.table-responsive table tbody tr td {
+    font-size: 8pt;
+}
+
+.table-responsive-flex table tbody tr td {
+    font-size: 7pt;
+}
+
+a.ver_reporte {
+    background-color: #1f3558;
+    color: white;
+}

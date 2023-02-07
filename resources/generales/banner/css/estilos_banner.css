@@ -1,0 +1,83 @@
+/*Banner de inicio*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.card {
+	background-color: rgb(255 255 255 / 0%);
+}
+.justify-content-center {
+    
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    font-size: 35px;
+    color: white;
+}
+.texto-cecntro-banner{
+    border-style: solid;
+}
+.md-form label {
+	color: #ffffff;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem;
+}
+h6 {
+	line-height: 1.7;
+}
+
+html,
+body,
+header,
+.view {
+	height: 100vh;
+}
+html,
+body,
+header,
+.view2 {
+	height: 1vh;
+}
+
+@media (max-width: 740px) {
+	html,
+	body,
+	header,
+	.view {
+		height: 700px;
+	}
+}
+@media (max-width: 740px) {
+	html,
+	body,
+	header,
+	.view2 {
+		height: 1px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+	html,
+	body,
+	header,
+	.view {
+		height: 650px;
+	}
+}
+.card {
+	margin-top: 30px;
+	/*margin-bottom: -45px;*/
+}
+.md-form input[type="text"]:focus:not([readonly]),
+.md-form input[type="password"]:focus:not([readonly]) {
+	border-bottom: 1px solid #fb5364;
+	box-shadow: 0 1px 0 0 #fb5364;
+}
+
+.md-form input[type="text"]:focus:not([readonly]) + label,
+.md-form input[type="password"]:focus:not([readonly]) + label {
+	color: #fb5364;
+}
+
+.md-form .form-control {
+	color: #fff;
+}

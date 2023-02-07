@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../fonts/Poppins-Regular.ttf);
+}
+body{
+    background-color: #1F3558;
+    height: 100%;
+    font-family: Poppins
+}
+
+div.contenedor-padre{
+    height: 100vh;
+    min-height:600px;
+   
+}
+
+div.contenedor-padre div.contenedor-hijo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px 50px 60px 50px;
+    text-align: center;
+}
+
+
+div.contenedor-padre div#logo{
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(31,53,88,0.3);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-color: #1F3558;
+    border-width: 4px ;
+    border-style: solid;
+    margin-bottom:20px;
+    position: relative;
+    
+    
+}
+
+div.contenedor-padre  div#logo img{
+    margin: 0 auto;
+    width: 70px;
+    position: relative;
+
+}
+h4{
+    margin-bottom: 30px;
+    font-weight:600;
+}
+
+div.contenedor-padre form input[type="text"],
+div.contenedor-padre form input[type="password"]{
+    border-color: transparent;
+    border-bottom-color: gray;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+div.contenedor-padre form input[type="submit"]{
+    background-color: #1F3558;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
